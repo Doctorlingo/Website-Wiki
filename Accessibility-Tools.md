@@ -1,0 +1,21 @@
+## Design Tools
+* [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/): Used to measure color contrast. This tool can also be used to simulate how color combinations appear to people with various types of color blindness. 
+
+## Testing Tools
+* [aXe Pro ]( https://www.deque.com/axe/beta/?utm_term=%2Bdeque&utm_campaign=Search+-+Branded&utm_source=bing&utm_medium=ppc&hsa_src=o&hsa_ad=&hsa_tgt=kwd-82807482361568:loc-190&hsa_mt=p&hsa_ver=3&hsa_acc=7854167720&hsa_kw=%2Bdeque&hsa_grp=1324912587038587&hsa_cam=1494072164&hsa_net=adwords&msclkid=033aa15a2c3718779769ff81c8757da2)- Beta Deque product, that is a combination of browser plugin and dashboard. The plugin does automated testing and the dashboard will guide you through manual tests that need to be conducted. You must register for it, but it is free. 
+* [ANDI ](https://www.ssa.gov/accessibility/andi/help/howtouse.html)- this is a bookmarklet created by social security administration it assists in manual testing. 
+* [Tota11y ](https://khan.github.io/tota11y/)- This tool is a bookmarklet similar to ANDI but a little bit more quick and dirty. I would use this for fast iterative testing for the most basic accessibility requirements. 
+* [NoCoffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US) - This is a google chrome plugin that allows you to simulate how someone with a vision impairment would see what is in the browser. Including color blindness, glucoma, etc...
+
+## Assistive Technologies
+
+This is a list of assistive technologies that users with disabilities might use. It's important for designers and developers to have a general understanding of how to use them so that they understand how people with disabilities engage in websites.
+* [NVDA ](https://www.nvaccess.org/download/)- NVDA is a screenreader for Windows that is quickly becoming the most popular desktop screenreader in the disabled community. It works best with firefox and chrome. You can find a list of important keyboard shortcuts on [webaim's website](https://webaim.org/resources/shortcuts/nvda). It's important to note that screenreader users typically navigate by keyboard and do not use mice or pointers.
+* [Voiceover on MAC](https://help.apple.com/voiceover/mac/10.15/) - Voiceover is the built-in screenreader that comes preinstalled on all apple PCs. When utilizing it's best to only navigate via keyboard.
+* [Voiceover iOS](https://support.apple.com/guide/iphone/welcome/ios) - Voiceover is also preinstalled on iOS devices. Since these are touchscreen devices they operate differently users can swipe left and right to navigate and double-tap to make selections. There is also a touch and drag method to navigate where users can hold their finger on the screen and drag it, the screenreader will read what is under their finger.
+* [Talkback on Android](https://support.google.com/accessibility/android/answer/6283677?hl=en) - Talkback is Google's preinstalled screenreader. Swipe left and right to navigate and double-tap to make selections. Users can also hold their finger down on the screen and drag it to have the screenreader announce what is under their finger.
+* [Samsung Voice Assistant](https://www.samsung.com/us/support/answer/ANS00085503/) - Voice Assistant is the screenreader preinstalled on Samsung devices.  Swipe left and right to navigate and double-tap to make selections. Users can also hold their finger down on the screen and drag it to have the screenreader announce what is under their finger.
+
+## Readability Testing
+In order for users to understand content we want to write at a reading level that the majority of users will understand, including users with disabilities and users who speak the language we write in as a second or third language. Each language has a unique method for testing reading level, and due to the variance in how languages structure words and sentences, there is not one method for testing readability across multiple languages. We are currently researching the best methods for testing readability across the languages we support.
+* English - [Flesch Kincaid Method](https://code.doctorlingo.com/doctorlingo/doctorlingo.com/-/wikis/Flesch-Kincaid-Readability)
