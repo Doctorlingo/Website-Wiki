@@ -1,7 +1,6 @@
 ## Doctorlingo Wiki
 
-This is the wiki for the website project at Doctorlingo. Please also consider joining our [Notion page](https://www.notion.so/DoctorLingo-057df3fc11984f11a7d095bce0ea1b9e) for content updates.
-
+This is the wiki for the website project at Doctorlingo.
 #### URLS: 
 
 | Environment | URL |
